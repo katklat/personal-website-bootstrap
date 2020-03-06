@@ -1,96 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="container">
-        <h1>Katharina Klat</h1>
-        <nav>
-            <div class="row">
-                <a href="#contact" class="col">Contact</a>
-                <a href="#cv" class="col">CV</a>
-            </div>
-        </nav>
+      <nav class="row">
+        <h1 class="col-md-8">Katharina Klat</h1>
+        <div class="col-md">
+          <a href="#contact" class="col">Contact</a>
+          <a href="#cv" class="col">CV</a>
+        </div>
+      </nav>
     </header>
     <main>
-        <div class="container">
-            <img src="images/placeholder.jpg" alt="placeholder">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img
+              class="img-fluid max-width: 100% height: auto"
+              src="images/placeholder.jpg"
+              alt="placeholder"
+            />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <h4>Web Dev Skills </h4>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <h4>future Skills </h4>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
-            <span class="badge badge-secondary">Skill</span>
+          </div>
+          <div class="col-md">
+            <h4>Web Dev skills</h4>
+            <span class="badge badge-secondary">html</span>
+            <span class="badge badge-secondary">java-script</span>
+            <span class="badge badge-secondary">css</span>
+            <span class="badge badge-secondary">bootstrap</span>
+          </div>
+          <div class="col-md">
+            <h4>other skills</h4>
+            <span class="badge badge-secondary">java</span>
+            <span class="badge badge-secondary">git</span>
+            <span class="badge badge-secondary">shell</span>
+            <span class="badge badge-secondary">python</span>
+          </div>
         </div>
-        <div name="contact" class="container">
-            <a name="contact"></a>
-            <h4>telephone </h4>
-            <a href="tel:+00491719535622">0171 9535 622</a>
-            <h4>e-mail </h4>
-            <a href="mailto:katharina.klat">katharina.klat@pm.me</a>
+      </div>
+      <div class="container">
+        <a name="contact"></a>
+        <div class="row">
+          <h4 class="col-md">contact</h4>
+          <a class="col-md" href="tel:+00491719535622">0171 9535 622</a>
+          <a class="col-md" href="mailto:katharina.klat"
+            >katharina.klat@pm.me</a
+          >
         </div>
-        <div class="container">
-            <div class="text-center">
-                <section>
-                    <img src="images/github.png" alt="github"> 
-                    <br>
-                    <a href="" >GitHub </a>
-                </section>
-                <section>
-                    <img src="images/codepen.png" alt="codepen"> 
-                    <br>
-                    <a href="" >Codepen </a>
-                </section>
-            </div>
-        </div>
-        <div class="container">
+      </div>
+      <div class="container row text-center">
+        <section class="col-md">
+          <img src="images/github.png" alt="github" />
+          <br />
+          <a href="">GitHub </a>
+        </section>
+        <section class="col-md">
+          <img src="images/codepen.png" alt="codepen" />
+          <br />
+          <a href="">Codepen </a>
+        </section>
+      </div>
+      <div class="container">
+        <div class="row">
+          <section class="col-md-4">
+            <h4>Lorem, ipsum.</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis optio cupiditate quo ex ipsa illum molestias libero
+              voluptatum laborum sint?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              consequuntur expedita, ad culpa ipsam nisi sint inventore deleniti
+              accusantium reiciendis quam totam harum?
+            </p>
+            <h4>Lorem, ipsum.</h4>
+          </section>
+          <a name="cv"></a>
+          <section class="col-md">
+            <h4>CV</h4>
             <div class="row">
-                <section>
-                    <h4>Lorem, ipsum.</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis optio cupiditate quo ex ipsa illum molestias libero voluptatum laborum sint?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequuntur expedita, ad culpa ipsam nisi sint inventore deleniti accusantium reiciendis quam totam harum?</p>
-                    <h4>Lorem, ipsum.</h4>
-                </section>
-                <section>
-                    <a name="cv"></a>
-                    <h4>CV</h4>
-                    <div class="row p-3">
-                        <h5>Lorem, ipsum.</h5>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                        <h5>Lorem, ipsum.</h5>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                        <h5>Lorem, ipsum.</h5>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                        <h5>Lorem, ipsum.</h5>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                    </div>
-                    
-
-                    </ul>
-                </section>
+              <h5 class="col-md-4">Period 1</h5>
+              <span class="col-md"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                porro quod voluptatem sed saepe quia ipsam.
+              </span>
             </div>
+            <div class="row">
+              <h5 class="col-md-4">Period 2</h5>
+              <span class="col-md"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                in quidem, quia cumque itaque odio placeat.</span
+              >
+            </div>
+            <div class="row">
+              <h5 class="col-md-4">Period 3</h5>
+              <span class="col-md"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi iure possimus nisi quod vel voluptas dolorum.</span
+              >
+            </div>
+            <div class="row">
+              <h5 class="col-md-4">Period 4</h5>
+              <span class="col-md"
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur aut ipsam quae porro eligendi reiciendis
+                deleniti.</span
+              >
+            </div>
+          </section>
         </div>
-
+      </div>
     </main>
     <footer class="container">
-       <h6>&copy 2020 Katharina Klat</h6>
-
+      <h6>&copy 2020 Katharina Klat</h6>
     </footer>
-</body>
+  </body>
 </html>
